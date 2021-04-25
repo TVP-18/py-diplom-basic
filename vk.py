@@ -31,7 +31,7 @@ class Vk:
         url = self.url + 'photos.get'
         params = {
             'owner_id': user_id,
-            'album_id': 'wall',
+            'album_id': 'profile',
             'extended': 1,
             'count': count
         }

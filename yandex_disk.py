@@ -40,7 +40,7 @@ class YandexDisk:
         return response
 
     def save_photos(self, photos, count=5):
-        print(f'Делаем резервные копии фотографий на Яндекс.Диск')
+        print(f'Делаем резервные копии фотографий на Яндекс.Диск:')
         load_json = []
 
         # создаем на Яндекс.Диске новую папку для сохранения фото
